@@ -13,5 +13,8 @@ int main(){
     float gpa = 2.05; //floating point number containg a decimal
     char grade = 'C';//single character
     char name[] = "Bro";//array of characters
+
+    printf("You are %d years old\n",age);
+    printf("Hello %s\n",name);
     return 0;
 }
