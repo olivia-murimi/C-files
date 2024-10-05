@@ -7,5 +7,7 @@ int main(){
     //printf("1\t2\t3\n4\t5\t6\n7\t8");
     //printf("\"I like pizza\" - Abraham Lincoln probably");
     int x;// declaration
+    x = 123; //initialization
+    int y =
     return 0;
 }
