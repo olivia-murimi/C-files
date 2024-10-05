@@ -11,6 +11,7 @@ int main(){
     int y = 321; //declaration + initialization
     int age = 21;
     float gpa = 2.05; //floating point number containg a decimal
-    char grade = 'C';//single characters
+    char grade = 'C';//single character
+    char name[] = "Bro";//array of characters
     return 0;
 }
