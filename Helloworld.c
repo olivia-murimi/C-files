@@ -19,6 +19,7 @@ int main(){
     //printf("Hello %s\n",name);
     //printf("Your average grade is %c\n",grade);
     //printf("Your gpa is %f\n",gpa);
-
+    //printf("%d\n", j); //int
+    //printf("%u\n", k); //unsigned int
     return 0;
 }
