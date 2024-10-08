@@ -21,5 +21,8 @@ int main(){
     //printf("Your gpa is %f\n",gpa);
     //printf("%d\n", j); //int
     //printf("%u\n", k); //unsigned int
+    float item1 = 5.75;
+    float item2 = 10.00;
+    float item3 = 100.99;
     return 0;
 }
