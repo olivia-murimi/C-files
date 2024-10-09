@@ -21,11 +21,14 @@ int main(){
     //printf("Your gpa is %f\n",gpa);
     //printf("%d\n", j); //int
     //printf("%u\n", k); //unsigned int
-    float item1 = 5.75;
-    float item2 = 10.00;
-    float item3 = 100.99;
-    printf("item 1: $%-8.2f\n", item1);
-    printf("item 2: $%-8.2f\n", item2);
-    printf("item 3: $%-8.2f\n", item3);
+    //float item1 = 5.75;
+    //float item2 = 10.00;
+    //float item3 = 100.99;
+    //printf("item 1: $%-8.2f\n", item1);
+    //printf("item 2: $%-8.2f\n", item2);
+    //printf("item 3: $%-8.2f\n", item3)-
+     float pi = 3.14159;
+      pi = 420.69
+     printf("%f", pi);
     return 0;
 }
