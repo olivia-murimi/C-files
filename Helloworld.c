@@ -27,8 +27,7 @@ int main(){
     //printf("item 1: $%-8.2f\n", item1);
     //printf("item 2: $%-8.2f\n", item2);
     //printf("item 3: $%-8.2f\n", item3)-
-     float pi = 3.14159;
-      pi = 420.69
-     printf("%f", pi);
+     const float Pi = 3.14159;
+     printf("%f", Pi);
     return 0;
 }
