@@ -1,5 +1,5 @@
-#include <stdio.h>
-int main(){
+//#include <stdio.h>
+//int main(){
     // This is a comment blah
     /*This is a comment*/
     //printf("I like pizza\n");
@@ -27,16 +27,19 @@ int main(){
     //printf("item 1: $%-8.2f\n", item1);
     //printf("item 2: $%-8.2f\n", item2);
     //printf("item 3: $%-8.2f\n", item3)-
-     const float Pi = 3.14159;
-     printf("%f", Pi);
-    return 0;
-}
+    // const float Pi = 3.14159;
+    // printf("%f", Pi);
+    //return 0;
+//}
 #include <stdio.h>
 int main(){
     int x = 5;
     int y = 2;
-     
-    int z = x+y; 
-    printf("%d", z);
+    //float  z = x/(float)y; 
+    //printf("%f", z);
+    //int z = x % y;
+    //printf("%d", z);
+    x++;
+    y--;
     return 0;
 }
