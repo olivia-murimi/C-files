@@ -41,7 +41,7 @@ int main(){
     //printf("%d", z);
     //x++;
     //y--;
-    int x = 10;
+    //int x = 10;
     //x = x+2
     //x+=2;
     //x =x-3;
@@ -50,7 +50,12 @@ int main(){
     //x*=4;
     //x = x/ 5;
     //x/5;
-    x = x%2;
-    x%=2;
+    //x = x%2;
+    //x%=2;
+    int age;
+     printf("\nHow old are you?");
+     scanf("%d",&age);
+
+     printf("You are %d years old",age);
     return 0;
 }
