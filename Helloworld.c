@@ -33,13 +33,15 @@
 //}
 #include <stdio.h>
 int main(){
-    int x = 5;
-    int y = 2;
+    //int x = 5;
+    //int y = 2;
     //float  z = x/(float)y; 
     //printf("%f", z);
     //int z = x % y;
     //printf("%d", z);
-    x++;
-    y--;
+    //x++;
+    //y--;
+    int x = 10;
+    x = x+2
     return 0;
 }
