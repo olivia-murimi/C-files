@@ -42,6 +42,9 @@ int main(){
     //x++;
     //y--;
     int x = 10;
-    x = x+2
+    //x = x+2
+    //x+=2;
+    x =x-3;
+    x-=3;
     return 0;
 }
