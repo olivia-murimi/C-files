@@ -31,8 +31,8 @@
     // printf("%f", Pi);
     //return 0;
 //}
-#include <stdio.h>
-int main(){
+//#include <stdio.h>
+//int main(){
     //int x = 5;
     //int y = 2;
     //float  z = x/(float)y; 
@@ -52,10 +52,16 @@ int main(){
     //x/5;
     //x = x%2;
     //x%=2;
-    int age;
-     printf("\nHow old are you?");
-     scanf("%d",&age);
+    //int age;
+     //printf("\nHow old are you?");
+     //scanf("%d",&age);
 
-     printf("You are %d years old",age);
+     //printf("You are %d years old",age);
+    //return 0;
+//}
+#include <stdio.h>
+int main(){
+    int age = 21;
+    printf("You are %d years old\n" ,age);
     return 0;
 }
