@@ -61,7 +61,8 @@
 //}
 #include <stdio.h>
 int main(){
-    int age = 21;
-    printf("You are %d years old\n" ,age);
+    int age;
+    printf("How old are you?");
+    scanf("%d", &age);
     return 0;
 }
