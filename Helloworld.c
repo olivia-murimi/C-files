@@ -60,15 +60,17 @@
     //return 0;
 //}
 #include <stdio.h>
+#include <math.h>
 int main(){
-    char name[25]; //bytes
-    int age;
-    printf("What's your name?");
-    scanf("%s",&name)
-    printf("\nHow old are you?");
-    scanf("%d", &age);
-    printf("\nYou are %d years old",age);
-    printf("\nHello %s, how are you", name);
-
+    //char name[25]; //bytes
+    //int age;
+    //printf("What's your name?");
+    //scanf("%s",&name);
+    //fgets(name, 25, stdin);
+    //printf("\nHow old are you?");
+    //scanf("%d", &age);
+    //printf("\nYou are %d years old",age);
+    //printf("\nHello %s, how are you", name);
+    double A = sqrt();
     return 0;
 }
