@@ -71,6 +71,7 @@ int main(){
     //scanf("%d", &age);
     //printf("\nYou are %d years old",age);
     //printf("\nHello %s, how are you", name);
-    double A = sqrt();
+    double A = sqrt(9);
+    printf("\n%lf",A);
     return 0;
 }
