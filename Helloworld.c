@@ -73,5 +73,10 @@ int main(){
     //printf("\nHello %s, how are you", name);
     double A = sqrt(9);
     printf("\n%lf",A);
+    double B = pow(2, 4);
+    printf("\n%lf",B);
+    int C = round(3.14);
+    printf("\n%d",C);
+    
     return 0;
 }
