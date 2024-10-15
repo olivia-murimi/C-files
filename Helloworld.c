@@ -77,6 +77,7 @@ int main(){
     printf("\n%lf",B);
     int C = round(3.14);
     printf("\n%d",C);
-    
+    int D = ceil(3.14);
+    printf("\n%d",D);
     return 0;
 }
