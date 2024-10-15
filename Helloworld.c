@@ -83,5 +83,7 @@ int main(){
     printf("\n%d",E);
     double F = fabs(-100);
     printf("\nlf");
+    double G = log(3);
+    printf("\nif",G);
     return 0;
 }
