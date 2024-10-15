@@ -81,5 +81,7 @@ int main(){
     printf("\n%d",D);
     int E = floor(3.99);
     printf("\n%d",E);
+    double F = fabs(-100);
+    printf("\nlf");
     return 0;
 }
