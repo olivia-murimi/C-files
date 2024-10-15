@@ -79,5 +79,7 @@ int main(){
     printf("\n%d",C);
     int D = ceil(3.14);
     printf("\n%d",D);
+    int E = floor(3.99);
+    printf("\n%d",E);
     return 0;
 }
