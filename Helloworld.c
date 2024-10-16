@@ -60,7 +60,7 @@
     //return 0;
 //}
 #include <stdio.h>
-#include <math.h>
+//#include <math.h>
 int main(){
     //char name[25]; //bytes
     //int age;
@@ -71,25 +71,30 @@ int main(){
     //scanf("%d", &age);
     //printf("\nYou are %d years old",age);
     //printf("\nHello %s, how are you", name);
-    double A = sqrt(9);
-    printf("\n%lf",A);
-    double B = pow(2, 4);
-    printf("\n%lf",B);
-    int C = round(3.14);
-    printf("\n%d",C);
-    int D = ceil(3.14);
-    printf("\n%d",D);
-    int E = floor(3.99);
-    printf("\n%d",E);
-    double F = fabs(-100);
-    printf("\nlf");
-    double G = log(3);
-    printf("\nif",G);
-    double H = sin(45);
-    printf("\n%lf",H);
-    double I = cos(45);
-    printf("\n%lf",I);
-    double J = tan(45);
-    printf("\n%lf",J);
+   // double A = sqrt(9);
+    //printf("\n%lf",A);
+    //double B = pow(2, 4);
+    //printf("\n%lf",B);
+    //int C = round(3.14);
+    //printf("\n%d",C);
+    //int D = ceil(3.14);
+    //printf("\n%d",D);
+    //int E = floor(3.99);
+    //printf("\n%d",E);
+    //double F = fabs(-100);
+    //printf("\nlf");
+    //double G = log(3);
+    //printf("\nif",G);
+    //double H = sin(45);
+    //printf("\n%lf",H);
+    //double I = cos(45);
+    //printf("\n%lf",I);
+    //double J = tan(45);
+    //printf("\n%lf",J);
+     const double PI = 3.14159;
+     double radius;
+     double circumference;
+
+
     return 0;
 }
