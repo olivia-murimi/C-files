@@ -85,5 +85,11 @@ int main(){
     printf("\nlf");
     double G = log(3);
     printf("\nif",G);
+    double H = sin(45);
+    printf("\n%lf",H);
+    double I = cos(45);
+    printf("\n%lf",I);
+    double J = tan(45);
+    printf("\n%lf",J);
     return 0;
 }
