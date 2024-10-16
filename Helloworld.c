@@ -94,6 +94,8 @@ int main(){
      const double PI = 3.14159;
      double radius;
      double circumference;
+     printf("\nEnter radius of a circle:");
+     scanf("%lf", &radius);
 
 
     return 0;
