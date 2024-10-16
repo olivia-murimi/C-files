@@ -59,9 +59,9 @@
      //printf("You are %d years old",age);
     //return 0;
 //}
-#include <stdio.h>
+//#include <stdio.h>
 //#include <math.h>
-int main(){
+//int main(){
     //char name[25]; //bytes
     //int age;
     //printf("What's your name?");
@@ -91,12 +91,20 @@ int main(){
     //printf("\n%lf",I);
     //double J = tan(45);
     //printf("\n%lf",J);
-     const double PI = 3.14159;
+    #include <stdio.h>
+    int main(){
+        const double PI = 3.14159;
      double radius;
      double circumference;
      printf("\nEnter radius of a circle:");
      scanf("%lf", &radius);
+     circumference = 2 * PI * radius;
+     printf("circumference: %lf", circumference);
+
+     return 0;
+      }
 
 
-    return 0;
-}
+
+    
+
