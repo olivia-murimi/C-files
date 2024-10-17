@@ -107,10 +107,16 @@
      return 0;
       }*/
      #include <stdio.h>
+     #include <math.h>
 
      int main(){
+      double A;
+      double B;
+      double C;
 
-        
+      printf("Enter side A:");
+      scanf("%lf", &A);
+
         return 0;
      }
 
