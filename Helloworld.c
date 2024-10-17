@@ -100,6 +100,7 @@
      printf("\nEnter the radius of a circle:");
      scanf("%lf", &radius);
      circumference = 2 * PI * radius;
+     area = PI * radius * radius;
      printf("circumference: %lf", circumference);
 
      return 0;
