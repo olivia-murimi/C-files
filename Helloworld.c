@@ -102,6 +102,7 @@
      circumference = 2 * PI * radius;
      area = PI * radius * radius;
      printf("circumference: %lf", circumference);
+     printf("area: %lf", area);
 
      return 0;
       }
