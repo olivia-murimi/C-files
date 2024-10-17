@@ -91,7 +91,7 @@
     //printf("\n%lf",I);
     //double J = tan(45);
     //printf("\n%lf",J);
-    #include <stdio.h>
+    /*#include <stdio.h>
     int main(){
         const double PI = 3.14159;
      double radius;
@@ -105,7 +105,14 @@
      printf("area: %lf", area);
 
      return 0;
-      }
+      }*/
+     #include <stdio.h>
+
+     int main(){
+
+        
+        return 0;
+     }
 
 
 
