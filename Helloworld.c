@@ -106,7 +106,7 @@
 
      return 0;
       }*/
-     #include <stdio.h>
+    /* #include <stdio.h>
      #include <math.h>
 
      int main(){
@@ -122,7 +122,15 @@
       C = sqrt(A*A + B*B);
       printf("Side C: %lf",C);
         return 0;
-     }
+     }*/
+    #include <stdio.h>
+    int main(){
+       int age;
+       
+
+
+        return 0;
+    }
 
 
 
