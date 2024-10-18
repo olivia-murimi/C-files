@@ -129,6 +129,9 @@
        if(age >= 18){
          printf("You are now signed up!");
        }
+       else if(age == 0){
+         printf("You have just been born");
+       }
        else{
          printf("You are too young to sign up");
        }
