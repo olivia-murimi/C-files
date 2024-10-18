@@ -125,8 +125,11 @@
      }*/
     #include <stdio.h>
     int main(){
-       int age;
-       
+       int age = 21;
+       if(age >= 18){
+         printf("You are now signed up!");
+       }
+
 
 
         return 0;
