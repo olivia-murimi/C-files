@@ -15,7 +15,15 @@ int main(){
   else if(grade =='C'){
     printf("You did okay\n");
   }
-
+  else if(grade =='D'){
+    printf("Atleast it's not an F\n");
+  }
+  else if(grade =='F'){
+    printf("YOU FAILED\n");
+  }
+  else{
+    printf("That's not a valid grade\n");
+  } 
 
 
 
