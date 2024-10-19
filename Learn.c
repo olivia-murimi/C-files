@@ -6,6 +6,16 @@ int main(){
   printf("\nEnter a letter grade");
   scanf("%c",&grade);
 
+  if(grade == 'A'){
+    printf("perfect\n");
+  }
+  else if(grade =='B'){
+    printf("You did good\n");
+  }
+  else if(grade =='C'){
+    printf("You did okay\n");
+  }
+
 
 
 
