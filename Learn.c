@@ -1,0 +1,1 @@
+Switch A more efficient alternative to using many "else if" statements allows a value to be tested for equality against many cases.
