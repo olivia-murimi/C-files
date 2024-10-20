@@ -147,8 +147,8 @@
  int main(){
    
    //logical operators = && (AND)checks if two conditions are true
-  float temp = 25;
-  if (temp >= 0){
+  float temp = 1000;
+  if (temp >= 0 && temp <= 30){
     printf("The weather is good");
   }
   else{
