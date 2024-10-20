@@ -11,9 +11,21 @@ int main(){
       printf("perfect!\n");
       break;
       case 'B';
-      printf("You did goog!\n");
+      printf("You did good!\n");
       break;
-  }
+      case 'C';
+      printf("You did okay!\n");
+      break;
+      case 'D';
+      printf("Atleast it's not an F!\n");
+      break;
+      case 'F';
+      printf("YOU FAILED!\n");
+      break;
+      default:
+      printf("Please enter only valid grades");
+      
+    }
 
 
     return 0;

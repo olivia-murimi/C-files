@@ -123,23 +123,32 @@
       printf("Side C: %lf",C);
         return 0;
      }*/
-    #include <stdio.h>
-    int main(){
-       int age = 12;
-       if(age >= 18){
-         printf("You are now signed up!");
-       }
-       else if(age == 0){
-         printf("You have just been born");
-       }
-       else{
-         printf("You are too young to sign up");
-       }
+    //#include <stdio.h>
+    //int main(){
+      // int age = 12;
+      // if(age >= 18){
+        // printf("You are now signed up!");
+       //}
+       //else if(age == 0){
+       //  printf("You have just been born");
+       //}
+       //else{
+         //printf("You are too young to sign up");
+       //}
 
 
 
-        return 0;
-    }
+        //return 0;
+    //}
+
+ #include <stdio.h>
+ #include <stdbool.h>
+
+ int main(){
+   
+   logical operators = && (AND)checks if two conditions are true
+   return 0;
+ }   
 
 
 
