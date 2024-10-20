@@ -149,7 +149,10 @@
    //logical operators = && (AND)checks if two conditions are true
   float temp = 25;
   if (temp >= 0){
-    printf(The weather is good);
+    printf("The weather is good");
+  }
+  else{
+    printf("The weather is bad");
   }
 
    return 0;
