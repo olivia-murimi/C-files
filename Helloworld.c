@@ -148,9 +148,9 @@
    
    //logical operators = && (AND)checks if two conditions are true
   // logical operators = (OR) checks if at least one condition is true
-  float temp = 1000;
+  float temp = -1000;
   bool sunny = false;
-  if (temp <= 0){
+  if (temp <= 0 || temp >= 30){
     printf("\nThe weather is good");
   }
   else{
