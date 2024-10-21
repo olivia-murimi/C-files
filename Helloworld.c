@@ -148,6 +148,7 @@
    
    //logical operators = && (AND)checks if two conditions are true
   // logical operators = (OR) checks if at least one condition is true
+  logical operators = ! (NOT) reverses the state of a condition
   float temp = -1000;
   bool sunny = false;
   if (temp <= 0 || temp >= 30){
