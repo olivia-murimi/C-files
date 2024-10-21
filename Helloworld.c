@@ -149,15 +149,21 @@
    //logical operators = && (AND)checks if two conditions are true
   // logical operators = (OR) checks if at least one condition is true
   logical operators = ! (NOT) reverses the state of a condition
-  float temp = -1000;
-  bool sunny = false;
-  if (temp <= 0 || temp >= 30){
-    printf("\nThe weather is good");
-  }
-  else{
-    printf("\nThe weather is bad");
-  }
-
+ // float temp = -1000;
+  //bool sunny = false;
+  //if (temp <= 0 || temp >= 30){
+    //printf("\nThe weather is good");
+  //}
+  //else{
+    //printf("\nThe weather is bad");
+  //}
+   bool sunny = true;
+   if(sunny = true){
+     printf("\nIt's sunny outside");
+   }
+   else{
+    printf("\nIt's cold outside");
+   }
    return 0;
  }   
 
