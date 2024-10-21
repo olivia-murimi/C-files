@@ -141,14 +141,14 @@
         //return 0;
     //}
 
- #include <stdio.h>
- #include <stdbool.h>
+ //#include <stdio.h>
+ //#include <stdbool.h>
 
- int main(){
+ //int main(){
    
    //logical operators = && (AND)checks if two conditions are true
   // logical operators = (OR) checks if at least one condition is true
-  logical operators = ! (NOT) reverses the state of a condition
+  //logical operators = ! (NOT) reverses the state of a condition
  // float temp = -1000;
   //bool sunny = false;
   //if (temp <= 0 || temp >= 30){
@@ -157,15 +157,26 @@
   //else{
     //printf("\nThe weather is bad");
   //}
-   bool sunny = true;
-   if(sunny = true){
-     printf("\nIt's sunny outside");
-   }
-   else{
-    printf("\nIt's cold outside");
-   }
-   return 0;
- }   
+  // bool sunny = true;
+   //if(!sunny){
+    // printf("\nIt's sunny outside");
+  // }
+   //else{
+   // printf("\nIt's cloudy outside");
+   //}
+   //return 0;
+ //}   
+ A function is a small section of code that is excuted whenever we call it
+ #include <stdio.h>
+
+ int main(){
+  
+  printf("\nHappy birthday to you!");
+  printf("\nHappy birthday to you!");
+  printf("\nHappy birthday dear... YOU!");
+  printf("\nHappy birthday to you");
+  return 0;
+ }
 
 
 
