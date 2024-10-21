@@ -147,6 +147,7 @@
  int main(){
    
    //logical operators = && (AND)checks if two conditions are true
+   logical operators = (OR) checks if at least one condition is true
   float temp = 1000;
   bool sunny = false;
   if (temp >= 0 && temp <= 30 && sunny){
