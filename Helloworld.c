@@ -170,15 +170,14 @@
  #include <stdio.h>
  void birthday()
  {
-  
- }
- int main(){
-  
-  printf("\nHappy birthday to you!");
+   printf("\nHappy birthday to you!");
   printf("\nHappy birthday to you!");
   printf("\nHappy birthday dear... YOU!");
-  printf("\nHappy birthday to you");
-  
+  printf("\nHappy birthday to you\n");
+ }
+ int main()
+ {
+  birthday();
   return 0;
 
  }
