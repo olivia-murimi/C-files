@@ -168,14 +168,19 @@
  //}   
  A function is a small section of code that is excuted whenever we call it
  #include <stdio.h>
-
+ void birthday()
+ {
+  
+ }
  int main(){
   
   printf("\nHappy birthday to you!");
   printf("\nHappy birthday to you!");
   printf("\nHappy birthday dear... YOU!");
   printf("\nHappy birthday to you");
+  
   return 0;
+
  }
 
 
