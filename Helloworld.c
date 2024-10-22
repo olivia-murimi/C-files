@@ -166,8 +166,8 @@
    //}
    //return 0;
  //}   
- A function is a small section of code that is excuted whenever we call it
- #include <stdio.h>
+ //A function is a small section of code that is excuted whenever we call it
+ /*#include <stdio.h>
  void birthday()
  {
    printf("\nHappy birthday to you!");
@@ -178,9 +178,16 @@
  int main()
  {
   birthday();
+  birthday();
+  birthday();
   return 0;
 
- }
+ }*/
+#include <stdio.h>
+int main(){
+  for loop = repeats a section of code a limited amount of times
+   return 0;
+}
 
 
 
