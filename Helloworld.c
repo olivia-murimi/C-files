@@ -183,7 +183,7 @@
   return 0;
 
  }*/
-#include <stdio.h>
+/*#include <stdio.h>
 int main(){
   //for loop = repeats a section of code a limited amount of times
   for(int i= 10; i >=10; i--)
@@ -191,7 +191,7 @@ int main(){
     printf("%d\n", i);
   }
    return 0;
-}
+}*/
 
 
 
