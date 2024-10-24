@@ -27,7 +27,7 @@ int main(){
 
     return 0;
 }*/
-#include <stdio.h>
+/*#include <stdio.h>
 int main(){
 char grade;
 printf("\nEnter a grade");
@@ -53,4 +53,9 @@ switch(grade){
 }
 
   return 0;
+}*/
+#include <stdio.h>
+int main(){
+  const PI = 3.141569
+  
 }
