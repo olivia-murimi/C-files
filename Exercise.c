@@ -27,7 +27,7 @@ int main(){
 
     return 0;
 }*/
-#included <stdio.h>
+#include <stdio.h>
 int main(){
 char grade;
 printf("\nEnter a grade");
@@ -49,8 +49,7 @@ switch(grade){
   printf("FAILED!\n");
   break;
   default;
-
-
+  printf("Please enter only valid grades");
 }
 
   return 0;
