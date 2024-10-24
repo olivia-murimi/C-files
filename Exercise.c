@@ -34,7 +34,23 @@ printf("\nEnter a grade");
 scanf("%c",grade);
 switch(grade){
   case 'A';
-  printf("Perfect!\n")
+  printf("Perfect!\n");
+  break;
+  case 'B';
+  printf("You did good!\n");
+  break;
+  case 'C';
+  printf("You did okay!\n");
+  break;
+  case 'D';
+  printf("Atleast it's not an E!\n");
+  break;
+  case 'E';
+  printf("FAILED!\n");
+  break;
+  default;
+
+
 }
 
   return 0;
