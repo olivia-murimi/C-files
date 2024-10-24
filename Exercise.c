@@ -32,6 +32,10 @@ int main(){
 char grade;
 printf("\nEnter a grade");
 scanf("%c",grade);
+switch(grade){
+  case 'A';
+  printf("Perfect!\n")
+}
 
   return 0;
 }
