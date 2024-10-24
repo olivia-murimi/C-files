@@ -7,7 +7,7 @@ int main(){
    printf("area: %.2f\n", area);
     return 0;
 }*/
-#include <stdio.h>
+/*#include <stdio.h>
 int main(){
     //while loop = repeats a section of code possibly unlimited
     //while some condition remains true 
@@ -20,11 +20,17 @@ int main(){
     {
       printf("\nYou did not enter your name");
       printf("/nWhat's your name?:");
-    fgets(name, 25, stdin);
-    name[strlen(name) - 1] = '\0';
-    while(strlen(name) == 0)
+      fgets(name, 25, stdin);
+      name[strlen(name) - 1] = '\0';
     }
     printf("Hello %s", name);
 
     return 0;
+}*/
+#included <stdio.h>
+int main(){
+
+
+  
+  return 0;
 }
