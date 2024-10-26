@@ -196,15 +196,15 @@ int main(){
 #include <stdio.h>
 void birthday()
 {
- printf("\nHappy birthday dear X!");
- printf("\nYou are Y years old");
+ printf("\nHappy birthday dear %s!",name);
+ printf("\nYou are %d years old",age);
 
 }
 int main()
 {
    char name[] = "Olivia";
    int age = 18;
-  birthday();
+  birthday(name, age);
   return 0;
 }
 
