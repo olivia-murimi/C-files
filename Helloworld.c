@@ -197,11 +197,13 @@ int main(){
 void birthday()
 {
  printf("\nHappy birthday dear X!");
- printf("\n")
+ printf("\nYou are Y years old");
 
-
+}
+int main()
+{
+  birthday();
   return 0;
-
 }
 
 
