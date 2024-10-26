@@ -202,6 +202,8 @@ void birthday()
 }
 int main()
 {
+   char name[] = "Olivia";
+   int age = 18;
   birthday();
   return 0;
 }
