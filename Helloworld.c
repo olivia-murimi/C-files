@@ -193,6 +193,16 @@ int main(){
    return 0;
 }*/
 
+#include <stdio.h>
+void birthday()
+{
+ printf("\nHappy birthday dear X!");
+ printf("\n")
+
+
+  return 0;
+
+}
 
 
     

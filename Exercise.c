@@ -59,7 +59,7 @@ int main(){
   const PI = 3.141569
   printf("Enter a value for your radius");
   scanf("%f", radius);
-  area = PI * radius * radius;
+  Area = PI * radius * radius;
   printf("area: %.2f\n", area);
 
   return 0;
