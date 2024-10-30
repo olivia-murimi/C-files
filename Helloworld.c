@@ -193,7 +193,7 @@ int main(){
    return 0;
 }*/
 
-#include <stdio.h>
+/*#include <stdio.h>
 void birthday(char name[], int age)
 {
  printf("\nHappy birthday dear %s!",name);
@@ -206,7 +206,11 @@ int main()
    int age = 18;
   birthday(name, age);
   return 0;
-}
+}*/
 
+#include <stdio.h>
+int main (){
+  Array = a data structure that can store many values of the same data type
+}
 
     
