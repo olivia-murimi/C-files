@@ -194,7 +194,7 @@ int main(){
 }*/
 
 #include <stdio.h>
-void birthday()
+void birthday(char name[], int age)
 {
  printf("\nHappy birthday dear %s!",name);
  printf("\nYou are %d years old",age);
