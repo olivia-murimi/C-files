@@ -217,6 +217,11 @@ int main (){
   return 0;
 }*/
 #include <stdio.h>
+
+void printAge(int age)
+{
+
+}
 int main(){
  //pointer = a "variable-like" reference that holds a memory address to another variable, some tasks are performed more easily with pointers
  int age = 21;
