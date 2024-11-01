@@ -218,24 +218,25 @@ int main (){
 }*/
 #include <stdio.h>
 
-void printAge(int age)
+void printAge(int *pAge)
 {
- printf("You are %d years old\n");
+ printf("You are %d years old\n",*pAge);//dereference
 }
 int main(){
  //pointer = a "variable-like" reference that holds a memory address to another variable, some tasks are performed more easily with pointers
  int age = 21;
- int *pAge =&age;
- printf("address of age:%p\n", &age);
- printf("value of pAge:%p\n", pAge);
+ int *pAge = NULL; //good practice to assign NULL if declaring a pointer
+ pAge = &age;
+ //printf("address of age:%p\n", &age);
+ //printf("value of pAge:%p\n", pAge);
 
- printf("size of age: %d bytes\n", sizeof(age));
- printf("size of pAge: %d bytes\n", sizeof(age));
+ //printf("size of age: %d bytes\n", sizeof(age));
+ //printf("size of pAge: %d bytes\n", sizeof(age));
  
 
- printf("value of age:%d\n",age);
- printf("value at stored address: %d/n",*pAge);//deferencing
- printfAge("age");
+ //printf("value of age:%d\n",age);
+ //printf("value at stored address: %d/n",*pAge);//deferencing
+ printAge(pAge);
   return 0;
 }
 
