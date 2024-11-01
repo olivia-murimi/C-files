@@ -220,9 +220,11 @@ int main (){
 int main(){
  //pointer = a "variable-like" reference that holds a memory address to another variable, some tasks are performed more easily with pointers
  int age = 21;
+ int *pAge =&age;
+ printf("address of age:%p\n, &age");
+ printf("value of pAge:%p\n, &pAge");
 
- printf("");
- printf("");
+ //printf("value of age:%d"\n,age);
   return 0;
 }
 
