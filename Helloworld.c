@@ -220,7 +220,7 @@ int main (){
 
 void printAge(int age)
 {
-
+ printf("You are %d years old\n");
 }
 int main(){
  //pointer = a "variable-like" reference that holds a memory address to another variable, some tasks are performed more easily with pointers
@@ -235,7 +235,7 @@ int main(){
 
  printf("value of age:%d\n",age);
  printf("value at stored address: %d/n",*pAge);//deferencing
-
+ printfAge("age");
   return 0;
 }
 
