@@ -239,9 +239,12 @@ int main(){
  printAge(pAge);
   return 0;
 }*/
-#inlude <stdio.h>
+#include <stdio.h>
 int main(){
   //nested loop = a loop inside of another loop
+  int rows;
+  int columns;
+  char symbol;
   return 0;
 }
 
