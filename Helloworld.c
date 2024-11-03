@@ -216,7 +216,7 @@ int main (){
 
   return 0;
 }*/
-#include <stdio.h>
+/*#include <stdio.h>
 
 void printAge(int *pAge)
 {
@@ -237,6 +237,11 @@ int main(){
  //printf("value of age:%d\n",age);
  //printf("value at stored address: %d/n",*pAge);//deferencing
  printAge(pAge);
+  return 0;
+}*/
+#inlude <stdio.h>
+int main(){
+  //nested loop = a loop inside of another loop
   return 0;
 }
 
