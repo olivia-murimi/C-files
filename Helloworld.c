@@ -245,6 +245,8 @@ int main(){
   int rows;
   int columns;
   char symbol;
+  printf("\nEnter # of rows");
+  scanf("%d", &rows);
   return 0;
 }
 
