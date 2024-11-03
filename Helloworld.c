@@ -239,7 +239,7 @@ int main(){
  printAge(pAge);
   return 0;
 }*/
-#include <stdio.h>
+/*#include <stdio.h>
 int main(){
   //nested loop = a loop inside of another loop
   int rows;
@@ -258,6 +258,16 @@ int main(){
     }
     printf("\n");
   }
+  return 0;
+}*/
+#include <stdio.h>
+int main(){
+  int i =0;
+  do {
+    printf("%d\n",i);
+    i++;
+  }
+  while (i<5);
   return 0;
 }
 
