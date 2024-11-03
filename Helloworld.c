@@ -247,6 +247,14 @@ int main(){
   char symbol;
   printf("\nEnter # of rows");
   scanf("%d", &rows);
+  printf("\nEnter # of columns");
+  scanf("%d", &columns);
+
+  for(int i=1; i<=rows; i++){
+    for(int j=1; j<= columns; j++){
+      printf
+    }
+  }
   return 0;
 }
 
