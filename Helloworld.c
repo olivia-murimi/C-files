@@ -249,7 +249,9 @@ int main(){
   scanf("%d", &rows);
   printf("\nEnter # of columns");
   scanf("%d", &columns);
-
+ 
+   printf("Enter a symbol to use:");
+   scanf("%c",&symbol);
   for(int i=1; i<=rows; i++){
     for(int j=1; j<= columns; j++){
       printf("%d", j);
