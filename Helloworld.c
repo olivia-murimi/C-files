@@ -260,7 +260,7 @@ int main(){
   }
   return 0;
 }*/
-#include <stdio.h>
+/*#include <stdio.h>
 int main(){
   int i =0;
   do {
@@ -269,6 +269,11 @@ int main(){
   }
   while (i<5);
   return 0;
+}*/
+#include <stdio.h>
+int main(){
+  return 0;
 }
+
 
     
