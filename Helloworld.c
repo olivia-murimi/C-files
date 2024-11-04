@@ -271,7 +271,13 @@ int main(){
   return 0;
 }*/
 #include <stdio.h>
+#include <string.h>
 int main(){
+   struct = collection of related members("variables")
+   they can be of different data
+   listed under one name in a block of 
+   VERY SIMILAR to classes in another language
+
   return 0;
 }
 
