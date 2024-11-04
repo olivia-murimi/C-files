@@ -272,11 +272,16 @@ int main(){
 }*/
 #include <stdio.h>
 #include <string.h>
+struct Player
+{
+   char name[12];
+   int score;
+};
 int main(){
-   struct = collection of related members("variables")
-   they can be of different data
-   listed under one name in a block of 
-   VERY SIMILAR to classes in another language
+   //struct = collection of related members("variables")
+   //they can be of different data
+   //listed under one name in a block of 
+   //VERY SIMILAR to classes in another language
 
   return 0;
 }
