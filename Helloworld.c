@@ -282,6 +282,8 @@ int main(){
    //they can be of different data
    //listed under one name in a block of 
    //VERY SIMILAR to classes in another language
+   struct Player player1;
+   struct Player player2;
 
   return 0;
 }
