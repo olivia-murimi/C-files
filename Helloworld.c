@@ -270,7 +270,7 @@ int main(){
   while (i<5);
   return 0;
 }*/
-#include <stdio.h>
+/*#include <stdio.h>
 #include <string.h>
 struct Player
 {
@@ -286,7 +286,12 @@ int main(){
    struct Player player2;
 
   return 0;
-}
+}*/
+#include <stdio.h>
+struct myStructure{
+  int myNum;
+  char myLetter;
+};
 
 
     
