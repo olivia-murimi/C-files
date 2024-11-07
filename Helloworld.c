@@ -303,17 +303,23 @@ int main(){
   return 0;
 }*/
 #include <stdio.h>
-struct myStructure S1;
-struct myStructure S2;
+struct myStructure{
+  int myNum;
+  char myLetter;
+};
+int main(){
+struct myStructure s1;
+struct myStructure s2;
 
-S1.myNum = 13;
-S1.myLetter ='C';
+s1.myNum = 13;
+s1.myLetter ='B';
 
-S2.myNum = 20;
-S2.myLetter ='B';
+s2.myNum = 20;
+s2.myLetter ='C';
 
-printf("S1 number:%d\n",S1.myNum);
-printf("%c\n,S1.myLetter");
+printf("s1 number:%d\n",s1.myNum);
+printf("s1 letter:%c\n",s1.myLetter);
 
+}
 
     
