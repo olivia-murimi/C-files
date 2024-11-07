@@ -292,6 +292,11 @@ struct myStructure{
   int myNum;
   char myLetter;
 };
+int main(){
+  struct myStructure S1;
+  S1.myNum = 13;
+  S1.myLetter = 'B';
+}
 
 
     
