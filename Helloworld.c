@@ -287,7 +287,8 @@ int main(){
 
   return 0;
 }*/
-#include <stdio.h>
+
+/*#include <stdio.h>
 struct myStructure{
   int myNum;
   char myLetter;
@@ -300,7 +301,19 @@ int main(){
   printf("My number:%d\n",S1.myNum);
   printf("My letter:%c\n",S1.myLetter);
   return 0;
-}
+}*/
+#include <stdio.h>
+struct myStructure S1;
+struct myStructure S2;
+
+S1.myNum = 13;
+S1.myLetter ='C';
+
+S2.myNum = 20;
+S2.myLetter ='B';
+
+printf("S1 number:%d\n",S1.myNum);
+printf("%c\n,S1.myLetter");
 
 
     
