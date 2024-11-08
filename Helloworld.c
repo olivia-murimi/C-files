@@ -328,5 +328,9 @@ struct myStructure {
   char myLetter;
   char myString;
 };
+int main(){
+  struct myStructure s1;
+  strcpy(s1.myString, "OLIVIA!!");
+}
 
     
