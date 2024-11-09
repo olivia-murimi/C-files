@@ -331,7 +331,7 @@ struct myStructure {
 int main(){
   struct myStructure s1;
   strcpy(s1.myString, "OLIVIA!!");
-  printf("My string:%s",s1.myString);
+  printf("%d %c %s",s1.myNum);
   return 0;
 }
 
