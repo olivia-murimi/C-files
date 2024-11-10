@@ -334,7 +334,7 @@ int main(){
   printf("%d %c %s",s1.myNum,s1.myLetter,s1.myString);
   return 0;
 }*/
-#include <stdio.h>
+/*#include <stdio.h>
 #include <string.h>
 struct Player
 {
@@ -354,6 +354,19 @@ int main(){
  
  printf("%s\n", player2.name);
  printf("%d\n", player2.score);
+
+  return 0;
+}*/
+#include <stdio.h>
+#include <string.h>
+struct Student
+{
+  char name[12];
+}
+
+int main (){
+
+
 
   return 0;
 }
