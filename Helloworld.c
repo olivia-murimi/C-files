@@ -322,7 +322,7 @@ printf("s1 letter:%c\n",s1.myLetter);
 printf("s2 number:%d\n",s2.myNum);
 printf("s2 letter:%c\n",s2.myLetter);
 }*/
-#include <stdio.h>
+/*#include <stdio.h>
 struct myStructure {
   int myNum;
   char myLetter;
@@ -333,6 +333,13 @@ int main(){
   strcpy(s1.myString, "OLIVIA!!");
   printf("%d %c %s",s1.myNum,s1.myLetter,s1.myString);
   return 0;
+}*/
+#include <stdio.h>
+#include <string.h>
+struct Player
+{
+  char name [12];
+  int score;
 }
 
     
