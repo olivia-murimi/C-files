@@ -342,11 +342,11 @@ struct Player
   int score;
 }; 
 int main(){
-  struct player1;
-  struct player2;
-  srcpy(player1.name, "Bro");
+  struct Player player1;
+  struct Player player2;
+  strcpy(player1.name, "Bro");
   player1.score = 4;
-   srcpy(player2.name, "Bra");
+  strcpy(player2.name, "Bra");
   player1.score = 5;
  
  printf("%s\n", player1.name);
