@@ -340,6 +340,10 @@ struct Player
 {
   char name [12];
   int score;
+} 
+int main(){
+  struct Player1;
+  struct Player2;
 }
 
     
