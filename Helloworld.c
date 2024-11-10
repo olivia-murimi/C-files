@@ -372,9 +372,9 @@ int main (){
    struct Student student4 ={"Squidward",2.0};
 
    struct Student students[] ={student1, student2, student3, student4,};
-   for(int i=0; 1<sizeof(students)/sizeof(students[0]):)
+   for(int i=0; 1<sizeof(students)/sizeof(students[0]);i++)
    {
-
+    printf("%s", students[1]);
    }
 
   return 0;
