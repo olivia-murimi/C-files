@@ -367,7 +367,11 @@ struct Student
 
 int main (){
    struct Student student1 ={"Spongebob",3.0};
+   struct Student student2 ={"Patrick",2.5};
+   struct Student student3 ={"Sandy",4.0};
+   struct Student student4 ={"Squidward",2.0};
 
+   struct Student students[] ={student1, student2, student3, student4,};
 
   return 0;
 }
