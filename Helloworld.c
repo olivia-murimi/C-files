@@ -362,10 +362,11 @@ int main(){
 struct Student
 {
   char name[12];
-}
+  float gpa;
+};
 
 int main (){
-
+   struct Student student1 ={"Spongebob",3.0};
 
 
   return 0;
