@@ -54,7 +54,7 @@ switch(grade){
 
   return 0;
 }*/
-#include <stdio.h>
+/*#include <stdio.h>
 int main(){
   const PI = 3.141569
   printf("Enter a value for your radius");
@@ -62,5 +62,10 @@ int main(){
   Area = PI * radius * radius;
   printf("area: %.2f\n", area);
 
+  return 0;
+}*/
+#include <stdio.h>
+int main(){
+  const PI=3.1459
   return 0;
 }
