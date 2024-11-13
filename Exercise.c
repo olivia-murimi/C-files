@@ -70,6 +70,6 @@ int main(){
   printf("Enter a value for your radius");
   scanf("%f",&radius);
   area = PI * radius * radius;
-  printf("area:%.2")
+  printf("area:%.2lf/n",area);
   return 0;
 }
