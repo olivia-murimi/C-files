@@ -66,6 +66,10 @@ int main(){
 }*/
 #include <stdio.h>
 int main(){
-  const PI=3.1459
+  const PI=3.1459;
+  printf("Enter a value for your radius");
+  scanf("%f",&radius);
+  area = PI * radius * radius;
+  printf("area:%.2")
   return 0;
 }
