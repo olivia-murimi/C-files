@@ -74,4 +74,7 @@ int main(){
   return 0;
 }*/
 #include <stdio.h>
-int main()
+int main(){
+  int i=0
+  return 0;
+}
