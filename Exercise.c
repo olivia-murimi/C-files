@@ -76,9 +76,11 @@ int main(){
 #include <stdio.h>
 int main (){
   struct Student student1 = {"Spongebob",3.0};
-  struct Student student1 = {"Patrick",3.0};
-  struct Student student1 = {"Sandy",3.0};
-  struct Student student1 = {"Squidward",3.0};
-
+  struct Student student2 = {"Patrick",3.0};
+  struct Student student3 = {"Sandy",3.0};
+  struct Student student4 = {"Squidward",3.0};
+  struct Student students[] = {student1, student2, student3, student4};
+   for(int i=0; i< sizeof(students)/sizeof(students[0]); i++)
+   
   return 0;
 }
