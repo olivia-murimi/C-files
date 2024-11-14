@@ -74,7 +74,11 @@ int main(){
   return 0;
 }*/
 #include <stdio.h>
-int main(){
-  int i=0
+int main (){
+  struct Student student1 = {"Spongebob",3.0};
+  struct Student student1 = {"Patrick",3.0};
+  struct Student student1 = {"Sandy",3.0};
+  struct Student student1 = {"Squidward",3.0};
+
   return 0;
 }
