@@ -82,7 +82,7 @@ int main (){
   struct Student students[] = {student1, student2, student3, student4};
    for(int i=0; i< sizeof(students)/sizeof(students[0]); i++)
    {
-    prinf("%s/n", students[i].name);
+    printf("%-12s/t", students[i].name);
     printf("%f/n", students[i].gpa);
    }
    
