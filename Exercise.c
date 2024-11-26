@@ -90,5 +90,10 @@ int main (){
 }*/
 # include <stdio.h>
 int main(){
+  int length =5;
+  int width = 4;
+  int area;
+  area= length * width;
+  printf("length")
   return 0;
 }
