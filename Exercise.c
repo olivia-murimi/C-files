@@ -94,6 +94,9 @@ int main(){
   int width = 4;
   int area;
   area= length * width;
-  printf("length")
+  printf("length is: %d\n",length);
+  printf("width is: %d\n",width);
+  printf("area of a rectangle is: %d",area);
+
   return 0;
 }
