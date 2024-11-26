@@ -73,7 +73,7 @@ int main(){
   printf("area:%.2lf/n",area);
   return 0;
 }*/
-#include <stdio.h>
+/*#include <stdio.h>
 int main (){
   struct Student student1 = {"Spongebob",3.0};
   struct Student student2 = {"Patrick",2.5};
@@ -86,5 +86,9 @@ int main (){
     printf("%f/n", students[i].gpa);
    }
    
+  return 0;
+}*/
+# include <stdio.h>
+int main(){
   return 0;
 }
