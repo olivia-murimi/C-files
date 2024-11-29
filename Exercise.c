@@ -102,9 +102,9 @@ int main(){
 }*/
 #include <stdio.h>
 int main(){
-FILE *pF= fopen("test.txt" ,"w");
+FILE *pF= fopen("test.txt" ,"a");
 
-fprintf(pF, "Spongebob Squarepants");
+fprintf(pF, "\nSpongebob Square");
 
 fclose(pF);
 
