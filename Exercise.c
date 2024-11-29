@@ -102,7 +102,11 @@ int main(){
 }*/
 #include <stdio.h>
 int main(){
-FILE *pF= fopen("test.txt");
+FILE *pF= fopen("test.txt" ,"w");
+
+fprintf(pF, "Spongebob Squarepants");
+
+fclose(pF);
 
   return 0;
 }
