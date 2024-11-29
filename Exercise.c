@@ -88,7 +88,7 @@ int main (){
    
   return 0;
 }*/
-# include <stdio.h>
+/*# include <stdio.h>
 int main(){
   int length =5;
   int width = 4;
@@ -98,5 +98,13 @@ int main(){
   printf("width is: %d\n",width);
   printf("area of a rectangle is: %d",area);
 
+  return 0;
+}*/
+#include <stdio.h>
+int main(){
+
+
+
+  
   return 0;
 }
