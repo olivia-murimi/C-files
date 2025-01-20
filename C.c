@@ -15,6 +15,7 @@ int main(){
     char grade = 'B';
     char name[] = "Olivia";
 
-    printf("I'm turning %d next year",age);
+    printf("I'm turning %d next year\n",age);
+    printf("I got %s a gift for her %dst birthday\n",name,age);
     return 0;
 }
