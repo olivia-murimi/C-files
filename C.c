@@ -27,7 +27,8 @@ int main(){
 //constant = a fixed value that cannot be changed by the program.
 #include <stdio.h>
 int main(){
- const float pi =3.14159;
- printf("%f", pi);
+ const float PI =3.14159;
+ PI 420.69
+ printf("%f", PI);
  return 0;
 }
