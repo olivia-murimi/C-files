@@ -19,8 +19,15 @@ int main(){
     printf("I got %s a gift for her %dst birthday\n",name,age);
     return 0;
 }*/
-format specifier = defines and formats a type of data to be displayed
- %c = character
- %d = interger
- %lf = double 
- %s = string
+//format specifier = defines and formats a type of data to be displayed
+// %c = character
+ //%d = interger
+ //%lf = double 
+ //%s = string
+//constant = a fixed value that cannot be changed by the program.
+#include <stdio.h>
+int main(){
+ const float pi =3.14159;
+ printf("%f", pi);
+ return 0;
+}
